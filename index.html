@@ -3,24 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <title>Link dan Navigasi</title>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <h1>Personal Website</h1>
-    <p>Selamat datang di website pribadi saya</p>
-    <nav>
+      <h1>Personal Website</h1>
+      <p class="intro">Selamat datang di website pribadi saya</p>
+      <nav>
+        <div class="link-navbar">
       <a href="index.html">Home</a> | <a href="02-about.html">About</a> |
       <a href="03-project.html">Project</a> |
       <a href="04-contact.html">Contact</a> |
       <a href="memories.html">Memories</a>
     </nav>
+        </div>
+
+    <section id="profile">
     <hr />
     <h2>Halo, Saya Alyya Deliani Yusuf</h2>
-    <img src="assets/alyya.jpeg" alt="Foto profil mahasiswa" width="240" />
+    <img src="assets/alyya.jpeg" alt="profil" class="logo-profile"/>
     <p>
       Saya adalah mahasiswa yang sedang belajar pengembangan web.
       <br />
       Website ini dibuat sebagai latihan menggunakan HTML dasar tanpa CSS.
     </p>
+    </section>
+
+    <section id="promnet">
+      <div class="belajar">
     <h3>Yang Sedang Saya Pelajari</h3>
     <p></p>
     <ul>
@@ -34,5 +43,7 @@
     </p>
     <hr />
     <p>&copy; 2026 Alyya Deliani Yusuf. Dibuat menggunakan HTML.</p>
+    </section>
+    </div>
   </body>
 </html>
